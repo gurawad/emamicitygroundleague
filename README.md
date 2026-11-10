@@ -1,38 +1,32 @@
-# Emami City Ground League — Seasons 1 & 2 Website Upgrade
+# Emami City Ground League — Seasons 1 & 2 website upgrade
 
-This package upgrades the existing static Emami City Ground League website while preserving its current Players, Teams, Rankings, Compare and Instagram Card features. It adds a historical archive for both seasons.
+## What's changed in this revision
+- Removed duplicate Seasons Archive navigation buttons, duplicate archive sections and repeated archive.js script tags.
+- Updated the homepage copy to cover Seasons 1.0 and 2.0.
+- Added a Combined career option in the historical player archive, showing available all-time additive totals and a Season 1 / Season 2 split.
+- Added explicit fallback text marks if a sponsor or team logo image cannot load.
+- Kept sponsor brand names and sponsor/contact names from the supplied workbook.
+- Kept auction price in the Season 2 player detail modal and player comparison.
+- Retained source match timing fields.
 
-## Added public sections
-- EGL Archive: season-specific player profiles and official season statistics
-- Season-specific team identities and supplied logos
-- League standings and completed match results
-- Match timing fields from the source workbook (where present)
-- Player awards and Champions / Runners-up only
-- Sponsors & partners, with brand, sponsor/contact name and supplied logos; missing logos use text marks
-- Season 1 player photographs matched only by exact normalized player-name match
+## Missing Season 1-only player photographs
+See `EGL_Season1_Missing_Player_Photos.csv` in the package root. Please upload each image into `assets/` using the filename `player-eglp###.jpg` shown by the EGL Player ID (for example `player-eglp102.jpg`). The data file can then be updated to point to the image.
 
-## Data handling
-- All 96 Season 2 participants remain in the player register, including players without batting/bowling opportunity.
-- Blank source values remain unknown; no missing values are silently converted to zero.
-- Season 1 and Season 2 teams are kept season-specific.
-- Sponsor and team-owner award/felicitation rows are not included in the public awards archive.
-- The original source workbook and original site data are not overwritten.
-- This is a static read-only public site; no private credentials or admin controls are included.
+## GitHub Pages deployment
+1. Back up the current repository.
+2. Upload the **contents** of this folder (`index.html`, `app.js`, `archive.js`, JSON files and `assets/`) to the repository root.
+3. Make sure the `assets` folder is at the same level as `index.html`. Do not upload the outer folder as a nested folder.
+4. Commit to `main`; GitHub Pages should publish from `main / (root)`.
+5. Hard-refresh the live site after deployment.
 
-## Run locally
-```bash
-python3 -m http.server 8000
-```
-Open http://localhost:8000.
+## Data interpretation
+- Main Players / Teams / Rankings / Compare / Intelligence modules are based on the Season 2 squad dataset. Prior-season EGL indicators refer to Season 1. Career context fields in the intelligence dataset may include CricHeroes competitions outside EGL and are labelled separately.
+- The archive provides season-specific official EGL statistics and a combined career view for additive totals. Combined rate statistics are not fabricated; batting average, strike rate, bowling average and economy should be calculated only when their denominators and fielding definitions are validated.
+- Blank source values remain unknown, not zero.
+- Player auction price is included in the Season 2 intelligence dataset as `Auction_Price_INR` and appears in the player detail and comparison views.
 
-## Deploy to the renamed GitHub Pages repository
-1. Rename the existing repository to `emamicitygroundleague` under `gurawad` (GitHub → repository Settings → General → Repository name).
-2. Confirm GitHub Pages is enabled for the intended branch and folder. The expected project-site URL is `https://gurawad.github.io/emamicitygroundleague/`.
-3. Back up the repository contents or create a branch before replacing files.
-4. Copy the contents of this package's `EGL_Cricket_Intelligence_Web_MVP` folder into the repository's published site root.
-5. Commit and push. All site asset/script references in this package are relative, so they work under the renamed project path without hard-coded base-URL edits.
-6. Verify the new URL and check Players, Teams, Rankings, Compare, Instagram Card and EGL Archive on desktop and mobile.
+This is a prepared website package, not a confirmation that GitHub Pages has deployed it.
 
-If the repository is renamed, update any local Git remote URL used for future pushes to `https://github.com/gurawad/emamicitygroundleague.git` (or the equivalent SSH URL). GitHub may redirect the old repository URL, but update saved remotes and external links explicitly.
 
-No database credentials are required. This package does not deploy itself or modify the GitHub repository.
+## Season 1 photo update
+Eight additional user-supplied photos have been matched to EGLP029, EGLP102, EGLP108, EGLP110, EGLP111, EGLP116, EGLP125 and EGLP128. Four previously identified Season 1-only profiles still require photos: EGLP121 Sanjay Khaitan, EGLP124 Subham Tantia, EGLP127 Tarun Dokania and EGLP134 Yatharth Kakrania.

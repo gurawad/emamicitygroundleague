@@ -29,19 +29,19 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
 
 <style>
 .archive-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0 18px}.archive-kpi{background:#0b192c;border:1px solid var(--line);border-radius:14px;padding:14px}.archive-kpi strong{display:block;font-size:25px;color:var(--gold)}.archive-kpi span{font-size:11px;color:var(--muted)}
-.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
+.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.logo-fallback{display:flex;align-items:center;justify-content:center;text-align:center;color:#0a1728;font-weight:900;font-size:20px;overflow-wrap:anywhere}.photo-fallback{display:grid;place-items:center;color:#8295ad;font-size:42px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
 @media(max-width:850px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.archive-grid{grid-template-columns:1fr}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 
 <style>
 .archive-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0 18px}.archive-kpi{background:#0b192c;border:1px solid var(--line);border-radius:14px;padding:14px}.archive-kpi strong{display:block;font-size:25px;color:var(--gold)}.archive-kpi span{font-size:11px;color:var(--muted)}
-.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
+.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.logo-fallback{display:flex;align-items:center;justify-content:center;text-align:center;color:#0a1728;font-weight:900;font-size:20px;overflow-wrap:anywhere}.photo-fallback{display:grid;place-items:center;color:#8295ad;font-size:42px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
 @media(max-width:850px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.archive-grid{grid-template-columns:1fr}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 
 <style>
 .archive-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0 18px}.archive-kpi{background:#0b192c;border:1px solid var(--line);border-radius:14px;padding:14px}.archive-kpi strong{display:block;font-size:25px;color:var(--gold)}.archive-kpi span{font-size:11px;color:var(--muted)}
-.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
+.archive-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.archive-card{background:#0b192c;border:1px solid var(--line);border-radius:16px;padding:15px;min-width:0}.archive-card h3{margin:8px 0 5px}.archive-card .sub{font-size:12px;color:var(--muted)}.archive-photo{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#162943}.archive-logo{width:100%;height:105px;object-fit:contain;background:#f6f7f9;border-radius:10px;padding:8px}.logo-fallback{display:flex;align-items:center;justify-content:center;text-align:center;color:#0a1728;font-weight:900;font-size:20px;overflow-wrap:anywhere}.photo-fallback{display:grid;place-items:center;color:#8295ad;font-size:42px}.archive-table{width:100%;border-collapse:collapse;min-width:680px}.archive-table th,.archive-table td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:12px}.archive-table th{color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.06em}.archive-table td{color:#e4ebf5}.archive-note{font-size:11px;color:var(--muted);line-height:1.5;margin:12px 0}.archive-badge{display:inline-block;border:1px solid #526985;border-radius:30px;padding:4px 8px;font-size:10px;color:#c5d2e4;margin:3px 4px 0 0}
 @media(max-width:850px){.archive-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.archive-grid{grid-template-columns:1fr}.archive-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 </head>
@@ -55,7 +55,7 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
     <div class="hero-copy">
       <div class="eyebrow">DATA-LED • COMMUNITY-DRIVEN</div>
       <h2>What the numbers say.<br><span class="highlight">Match day decides.</span></h2>
-      <p>Explore player snapshots, team composition and previous-season signals ahead of EGL 2.0. Use the numbers to start a conversation—not to settle an argument.</p>
+      <p>Explore official player records, team histories, match results and career statistics across EGL Seasons 1.0 and 2.0. Use the numbers to celebrate the game—and keep building the legacy.</p>
     </div>
     <div class="hero-stat">
       <div><div class="big-num" id="playerCount">—</div><div class="stat-label">players in the current dataset</div></div>
@@ -69,12 +69,10 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
     <button class="tab" data-tab="rankings">Rankings</button>
     <button class="tab" data-tab="compare">Compare</button>
     <button class="tab" data-tab="share">Create Instagram Card</button>
-    <button class="tab" data-tab="history">EGL Archive</button>
-    <button class="tab" data-tab="history">EGL Archive</button>
-    <button class="tab" data-tab="history">EGL Archive</button>
+    <button class="tab" data-tab="history">Seasons Archive</button>
   </div>
   <section id="playersPane">
-    <div class="section-head"><h2>Player Intelligence</h2><p>Search a player or filter by team.</p></div>
+    <div class="section-head"><h2>Player Intelligence</h2><p>Season 2 squad intelligence. Open player data for auction value and prior-season evidence.</p></div>
     <div class="toolbar"><input id="playerSearch" placeholder="Search player name or role…"><select id="teamFilter"><option value="">All teams</option></select><select id="roleFilter"><option value="">All roles</option><option>Batting</option><option>Bowling</option><option>All-rounder</option><option>Wicketkeeper</option></select></div>
     <div class="grid" id="playerGrid"></div>
   </section>
@@ -88,7 +86,7 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
     <div class="table-wrap"><table class="table"><thead><tr><th>Rank</th><th>Player</th><th>Team</th><th>Index / Score</th><th>Evidence</th><th></th></tr></thead><tbody id="rankBody"></tbody></table></div>
   </section>
   <section id="comparePane" hidden>
-    <div class="section-head"><h2>Head-to-Head</h2><p>Compare two players or teams. Find the stat that starts the debate.</p></div>
+    <div class="section-head"><h2>Head-to-Head</h2><p>Compare Season 2 players and teams using Season 2 squad data, prior-season EGL performance and clearly labelled career context.</p></div>
     <div class="toolbar"><select id="compareMode"><option value="player">Player vs Player</option><option value="team">Team vs Team</option></select><select id="compareA" aria-label="First player or team"></select><select id="compareB" aria-label="Second player or team"></select></div>
     <div id="compareResult"></div>
   </section>
@@ -99,18 +97,8 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
     <p class="muted" style="font-size:12px;line-height:1.6">Every generated card includes the source/coverage disclaimer. Check the displayed value and evidence before sharing. The card is a social graphic, not an official player rating.</p>
   </section>
   <section id="historyPane" hidden>
-    <div class="section-head"><h2>EGL Historical Archive</h2><p>Official records from Seasons 1.0 and 2.0.</p></div>
-    <div class="toolbar"><select id="archiveSeason"><option value="2">EGL 2.0</option><option value="1">EGL 1.0</option></select><select id="archiveView"><option value="players">Players & career records</option><option value="teams">Teams & standings</option><option value="matches">Match results & timing</option><option value="awards">Player awards & team honours</option><option value="sponsors">Sponsors & partners</option></select><input id="archiveSearch" placeholder="Search this archive…"></div>
-    <div id="archiveSummary" class="archive-summary"></div><div id="archiveContent"></div>
-  </section>
-  <section id="historyPane" hidden>
-    <div class="section-head"><h2>EGL Historical Archive</h2><p>Official records from Seasons 1.0 and 2.0.</p></div>
-    <div class="toolbar"><select id="archiveSeason"><option value="2">EGL 2.0</option><option value="1">EGL 1.0</option></select><select id="archiveView"><option value="players">Players & career records</option><option value="teams">Teams & standings</option><option value="matches">Match results & timing</option><option value="awards">Player awards & team honours</option><option value="sponsors">Sponsors & partners</option></select><input id="archiveSearch" placeholder="Search this archive…"></div>
-    <div id="archiveSummary" class="archive-summary"></div><div id="archiveContent"></div>
-  </section>
-  <section id="historyPane" hidden>
-    <div class="section-head"><h2>EGL Historical Archive</h2><p>Official records from Seasons 1.0 and 2.0.</p></div>
-    <div class="toolbar"><select id="archiveSeason"><option value="2">EGL 2.0</option><option value="1">EGL 1.0</option></select><select id="archiveView"><option value="players">Players & career records</option><option value="teams">Teams & standings</option><option value="matches">Match results & timing</option><option value="awards">Player awards & team honours</option><option value="sponsors">Sponsors & partners</option></select><input id="archiveSearch" placeholder="Search this archive…"></div>
+    <div class="section-head"><h2>EGL Historical Archive</h2><p>Official records and combined career totals from EGL Seasons 1.0 and 2.0.</p></div>
+    <div class="toolbar"><select id="archiveSeason"><option value="0">Combined career · Seasons 1 & 2</option><option value="2">EGL 2.0</option><option value="1">EGL 1.0</option></select><select id="archiveView"><option value="players">Players & career records</option><option value="teams">Teams & standings</option><option value="matches">Match results & timing</option><option value="awards">Player awards & team honours</option><option value="sponsors">Sponsors & partners</option></select><input id="archiveSearch" placeholder="Search this archive…"></div>
     <div id="archiveSummary" class="archive-summary"></div><div id="archiveContent"></div>
   </section>
 </main>
@@ -119,7 +107,5 @@ footer{border-top:1px solid var(--line);padding:22px clamp(16px,4vw,48px);font-s
   Sources: prior-season EGL dataset and mapped CricHeroes career profile statistics. Individual data coverage varies; career figures may include competitions and formats outside EGL. Not official rankings, scouting reports or predictions.
 </footer>
 <script src="app.js"></script>
-<script src="archive.js"></script>
-<script src="archive.js"></script>
 <script src="archive.js"></script>
 </body></html>
