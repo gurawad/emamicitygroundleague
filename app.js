@@ -48,13 +48,13 @@ function renderCard(){let canvas=$("cardCanvas"),ctx=canvas.getContext("2d"),typ
  let g=ctx.createLinearGradient(0,0,1080,1350);g.addColorStop(0,"#071426");g.addColorStop(.58,"#102746");g.addColorStop(1,"#080f1c");ctx.fillStyle=g;ctx.fillRect(0,0,1080,1350);
  ctx.fillStyle="#e33b42";ctx.fillRect(0,0,1080,18);ctx.fillStyle="#f4c45e";ctx.fillRect(64,74,90,8);
  if(eglLogo.complete&&eglLogo.naturalWidth)ctx.drawImage(eglLogo,64,48,78,78);
- ctx.fillStyle="#f4c45e";ctx.font="800 26px Arial";ctx.fillText("EGL 2.0  /  CRICKET INTELLIGENCE",160,100);
+ ctx.fillStyle="#f4c45e";ctx.font="800 26px Arial";ctx.fillText("EMAMI CITY GROUND LEAGUE  /  OFFICIAL DIGITAL ARCHIVE",160,100);
  ctx.fillStyle="#aebbd0";ctx.font="700 17px Arial";ctx.fillText("EXCLUSIVE PARTNER",160,132);if(mcLogo.complete&&mcLogo.naturalWidth)ctx.drawImage(mcLogo,730,48,286,97);
  ctx.fillStyle="#f4f7fb";ctx.font="900 68px Arial";let hy=wrapText(ctx,headline.toUpperCase(),64,220,920,78,2);
  if(type==="team"&&t){ctx.fillStyle="#b6ff36";ctx.font="900 54px Arial";hy=wrapText(ctx,teamName(t),64,hy+45,930,64,2);
  ctx.fillStyle="#aebbd0";ctx.font="26px Arial";ctx.fillText(`${fmt(val(t,"Squad_Size"),0)} PLAYERS  •  TEAM SNAPSHOT`,64,hy+12);
  roundRect(ctx,64,hy+55,952,235,22,"#0b192c","#263a55");
- ctx.fillStyle="#aebbd0";ctx.font="700 22px Arial";ctx.fillText("MEAN SEASON 1 EGL INDEX",96,hy+105);
+ ctx.fillStyle="#aebbd0";ctx.font="700 22px Arial";ctx.fillText("MEAN PRIOR-SEASON EGL INDEX",96,hy+105);
  ctx.fillStyle="#b6ff36";ctx.font="900 78px Arial";ctx.fillText(fmt(val(t,"Mean_Last_Season_Index")),96,hy+190);
  ctx.fillStyle="#f4c45e";ctx.font="700 24px Arial";ctx.fillText("ROSTER SPEND",570,hy+105);
  ctx.fillStyle="#f4f7fb";ctx.font="900 42px Arial";ctx.fillText(money(val(t,"Roster_Spend_INR")),570,hy+170);
@@ -62,7 +62,7 @@ function renderCard(){let canvas=$("cardCanvas"),ctx=canvas.getContext("2d"),typ
  }else if(type==="stat"&&p){ctx.fillStyle="#b6ff36";ctx.font="900 58px Arial";hy=wrapText(ctx,playerName(p),64,hy+50,930,68,2);
  ctx.fillStyle="#aebbd0";ctx.font="27px Arial";ctx.fillText(`${teamName(p)}  •  ${role(p)}  •  ${playerId(p)}`,64,hy+8);
  const statKey=$("cardStat").value;
- const statLabels={"Provisional_Score":"PROVISIONAL INTELLIGENCE SCORE","Last_Season_Index":"SEASON 1 EGL INDEX","Last_Season_Runs":"PRIOR-SEASON RUNS","Last_Season_Wickets":"PRIOR-SEASON WICKETS","Last_Season_Batting_SR":"PRIOR-SEASON BATTING STRIKE RATE","Auction_Price_INR":"FINAL AUCTION PRICE"};
+ const statLabels={"Provisional_Score":"PROVISIONAL INTELLIGENCE SCORE","Last_Season_Index":"PRIOR-SEASON EGL INDEX","Last_Season_Runs":"PRIOR-SEASON RUNS","Last_Season_Wickets":"PRIOR-SEASON WICKETS","Last_Season_Batting_SR":"PRIOR-SEASON BATTING STRIKE RATE","Auction_Price_INR":"FINAL AUCTION PRICE"};
  const statValue=field(p,statKey);
  roundRect(ctx,64,hy+50,952,280,22,"#0b192c","#263a55");
  ctx.fillStyle="#aebbd0";ctx.font="700 25px Arial";ctx.fillText(statLabels[statKey]||"PLAYER STAT",96,hy+112);
@@ -73,7 +73,7 @@ function renderCard(){let canvas=$("cardCanvas"),ctx=canvas.getContext("2d"),typ
  roundRect(ctx,64,hy+50,952,240,22,"#0b192c","#263a55");
  ctx.fillStyle="#aebbd0";ctx.font="700 22px Arial";ctx.fillText("PROVISIONAL INTELLIGENCE SCORE",96,hy+100);
  ctx.fillStyle="#b6ff36";ctx.font="900 88px Arial";ctx.fillText(fmt(score(p)),96,hy+192);
- ctx.fillStyle="#f4c45e";ctx.font="700 22px Arial";ctx.fillText("SEASON 1 EGL INDEX",570,hy+100);
+ ctx.fillStyle="#f4c45e";ctx.font="700 22px Arial";ctx.fillText("PRIOR-SEASON EGL INDEX",570,hy+100);
  ctx.fillStyle="#f4f7fb";ctx.font="900 62px Arial";ctx.fillText(fmt(field(p,"Last_Season_Index")),570,hy+174);
  ctx.fillStyle="#aebbd0";ctx.font="22px Arial";ctx.fillText(`Runs ${fmt(field(p,"Last_Season_Runs"),0)}  •  Wickets ${fmt(field(p,"Last_Season_Wickets"),0)}`,96,hy+250);
  }else{ctx.fillStyle="#f4f7fb";ctx.font="48px Arial";ctx.fillText("Data not available",64,350)}
@@ -91,7 +91,8 @@ function renderCard(){let canvas=$("cardCanvas"),ctx=canvas.getContext("2d"),typ
  ctx.fillStyle="#e33b42";ctx.fillRect(64,1270,952,3);ctx.fillStyle="#f4f7fb";ctx.font="800 22px Arial";ctx.fillText("EMAMI CITY GROUND LEAGUE",64,1315);ctx.fillStyle="#f4c45e";ctx.font="700 20px Arial";ctx.textAlign="right";ctx.fillText("EXCLUSIVE PARTNER · MC FINANCIAL SERVICES",1016,1315);ctx.textAlign="left";
 }
 async function init(){try{let res=await fetch("./data.json?v=20261014-fix3",{cache:"no-store"});DATA=await res.json();}catch(e){console.error(e);return}
- $("playerCount").textContent=DATA.players.length;$("teamCount").textContent=DATA.teams.length;
+ if($("playerCount"))$("playerCount").textContent=DATA.players.length;
+ if($("teamCount"))$("teamCount").textContent=DATA.teams.length;
  populateFilters();renderPlayers();renderTeams();renderRankings();populateCardSubjects();renderCard();
  document.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>switchTab(b.dataset.tab));
  ["playerSearch","teamFilter","roleFilter"].forEach(id=>$(id).addEventListener(id==="playerSearch"?"input":"change",renderPlayers));

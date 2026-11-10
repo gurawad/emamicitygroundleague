@@ -1,0 +1,27 @@
+{
+  "release": "V5 \u2014 Ultimate Master",
+  "scope": "Presentation and navigation overhaul of the existing EGL static website",
+  "champions": {
+    "1": {
+      "champions": "Master Blasters",
+      "runners_up": "Strikers"
+    },
+    "2": {
+      "champions": "Mangrove Blasters",
+      "runners_up": "Gladiators"
+    }
+  },
+  "archive_counts": {
+    "player_identities": 135,
+    "season1_stat_rows": 95,
+    "season2_official_participants": 96,
+    "season_team_records": 16,
+    "matches": 30
+  },
+  "display_rules": {
+    "standings": "Competition table fields only; no match timing fields",
+    "match_timing": "Displayed in Match Results & Timing only",
+    "awards": "Player awards plus Champions and Runners-up team honours only",
+    "missing_values": "Blank remains unknown; do not coerce to zero"
+  }
+}
