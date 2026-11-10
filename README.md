@@ -1,44 +1,26 @@
-# Emami City Ground League — Ultimate Master Website V5
+# Emami City Ground League — Rebuild V6
 
-This is a full presentation and navigation overhaul of the existing GitHub Pages website.
-It is intended to replace the website files in the repository root while retaining the
-existing repository and URL:
+A fresh static-site rebuild for GitHub Pages. It is designed around the user's selected direction: hybrid dark/light presentation, latest season first, and season-specific player share cards by default.
 
-https://gurawad.github.io/emamicitygroundleague/
+## Files
+- `index.html`, `styles.css`, `app.js`: new front end
+- `egl-data.json`: structured source-derived tournament archive and existing Season 2 intelligence data
+- `assets/`: supplied player, team and sponsor images
 
-## Package contents
-- `index.html` — redesigned responsive homepage, single navigation, Hall of Champions
-- `app.js` — existing Season 2 player/team intelligence, comparison and share-card features
-- `archive.js` — official historical archive rendering
-- `data.json` — Season 2 intelligence dataset
-- `archive_data.json` — Seasons 1 and 2 player, team, match, standings, award and sponsor records
-- `assets/` — supplied logos and player photographs
+## Deploy
+1. Back up the existing GitHub repository.
+2. Upload the contents of this folder to the repository root (not the enclosing folder).
+3. Ensure `assets/` and `egl-data.json` sit beside `index.html`.
+4. Commit and allow GitHub Pages to deploy.
 
-## Important display and data rules
-- The homepage uses the two-season master archive context: 135 player identities and 30 match records.
-- Hall of Champions: EGL 1.0 — Master Blasters (runners-up Strikers); EGL 2.0 — Mangrove Blasters (runners-up Gladiators).
-- League standings contain competition metrics only. Match duration, playing time, innings duration and time-per-over are shown only in Match Results & Timing.
-- Team awards show only Champions and Runners-up; player awards remain in the player awards view.
-- Official EGL tournament statistics, external CricHeroes career context and provisional AI intelligence are kept distinct.
-- Blank values remain unknown; do not convert blanks to zero.
-- The 96 Season 2 official participants remain part of the register, including players without a batting or bowling opportunity.
+## Data notes
+- The archive has 135 player profiles, 16 season-team entries, 30 matches, 16 standings rows and season-specific sponsor records.
+- Season 1 and Season 2 remain distinct. Combined player totals use the supplied career total fields.
+- Season 1/2 standings preserve the source workbook's column values.
+- Match timings appear only in Match Centre, never in standings.
+- Season 1 title sponsor is GRACO; Season 2 exclusive partner is MC Financial Services. Player share cards default to EGL 2.0 and change partner branding with season selection.
+- Intelligence scores are presented separately from official tournament statistics.
+- Player award rows are sourced from the archive; team awards are displayed in the Hall of Fame championship cards. Sponsor/owner felicitation details are not displayed as awards.
 
-## Deploy to GitHub Pages
-1. Download a backup of the current repository before replacing anything.
-2. Extract this ZIP. The files shown above are at the ZIP root.
-3. In `gurawad/emamicitygroundleague`, upload **all files and folders from this ZIP root** to the repository root.
-4. Allow same-name files to be replaced.
-5. Remove obsolete duplicate/legacy HTML or archive scripts only after confirming they are not referenced. Do not delete the `assets/` folder.
-6. Commit with message: `Complete EGL website overhaul — V5`.
-7. Confirm Settings → Pages uses branch `main` and folder `/ (root)`.
-8. Wait for deployment, then hard-refresh the website (Cmd+Shift+R) or open a private window.
-
-## Validation after deployment
-- Homepage has one Seasons Archive navigation item (no duplicate green buttons).
-- Hall of Champions shows both season winners and runners-up.
-- Teams & Standings has no match timing columns.
-- Match Results & Timing contains match start/end, total match time and playing time where source values exist.
-- Sponsor logos render; if a file is unavailable, a readable text brand mark appears instead of a broken-image symbol.
-- Test desktop and mobile widths.
-
-This package is a static GitHub Pages release. It does not deploy Supabase or the private EGL Admin Centre.
+## Important
+This is a static GitHub Pages release. It does not yet connect to Supabase or a private admin system. Validate the live site and records before treating it as a final certified release.
