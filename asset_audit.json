@@ -1,0 +1,615 @@
+{
+  "player_photo_exact_matches": [
+    {
+      "egl_player_id": "EGLP001",
+      "player_name": "Nishant Todi",
+      "source_file": "Nishant Todi.jpg",
+      "asset": "assets/player-eglp001.jpg"
+    },
+    {
+      "egl_player_id": "EGLP002",
+      "player_name": "Suraj Kejriwal",
+      "source_file": "suraj kejriwal.jpg",
+      "asset": "assets/player-eglp002.jpg"
+    },
+    {
+      "egl_player_id": "EGLP003",
+      "player_name": "Bippin Jhunjhunwala",
+      "source_file": "bippin jhunjhunwala.jpg",
+      "asset": "assets/player-eglp003.jpg"
+    },
+    {
+      "egl_player_id": "EGLP004",
+      "player_name": "Yuvraj Tewari",
+      "source_file": "Yuvraj Tewari.jpeg",
+      "asset": "assets/player-eglp004.jpg"
+    },
+    {
+      "egl_player_id": "EGLP005",
+      "player_name": "Dhruv Agarwal",
+      "source_file": "Dhruv Agarwal.jpg",
+      "asset": "assets/player-eglp005.jpg"
+    },
+    {
+      "egl_player_id": "EGLP006",
+      "player_name": "Saurabh Tulsyan",
+      "source_file": "saurabh tulsyan.jpeg",
+      "asset": "assets/player-eglp006.jpg"
+    },
+    {
+      "egl_player_id": "EGLP008",
+      "player_name": "Aman Jaluka",
+      "source_file": "Aman Jaluka.jpeg",
+      "asset": "assets/player-eglp008.jpg"
+    },
+    {
+      "egl_player_id": "EGLP009",
+      "player_name": "Kapil Dubey",
+      "source_file": "Kapil Dubey.jpeg",
+      "asset": "assets/player-eglp009.jpg"
+    },
+    {
+      "egl_player_id": "EGLP010",
+      "player_name": "Yash Kedia",
+      "source_file": "Yash Kedia.jpeg",
+      "asset": "assets/player-eglp010.jpg"
+    },
+    {
+      "egl_player_id": "EGLP011",
+      "player_name": "Debasish Das",
+      "source_file": "Debasish Das.jpeg",
+      "asset": "assets/player-eglp011.jpg"
+    },
+    {
+      "egl_player_id": "EGLP014",
+      "player_name": "Gourav Kedia",
+      "source_file": "Gourav Kedia.jpeg",
+      "asset": "assets/player-eglp014.jpg"
+    },
+    {
+      "egl_player_id": "EGLP015",
+      "player_name": "Sulabh Agarwal",
+      "source_file": "Sulabh Agarwal.jpg",
+      "asset": "assets/player-eglp015.jpg"
+    },
+    {
+      "egl_player_id": "EGLP017",
+      "player_name": "Shivansh Soni",
+      "source_file": "Shivansh Soni.jpg",
+      "asset": "assets/player-eglp017.jpg"
+    },
+    {
+      "egl_player_id": "EGLP018",
+      "player_name": "Karan Gupta",
+      "source_file": "Karan Gupta.jpg",
+      "asset": "assets/player-eglp018.jpg"
+    },
+    {
+      "egl_player_id": "EGLP020",
+      "player_name": "Sunny Bhalotia",
+      "source_file": "Sunny Bhalotia.jpg",
+      "asset": "assets/player-eglp020.jpg"
+    },
+    {
+      "egl_player_id": "EGLP022",
+      "player_name": "Ayush Dutta",
+      "source_file": "Ayush Dutta.jpeg",
+      "asset": "assets/player-eglp022.jpg"
+    },
+    {
+      "egl_player_id": "EGLP023",
+      "player_name": "Suprakash Tibrewal",
+      "source_file": "Suprakash Tibrewal.jpeg",
+      "asset": "assets/player-eglp023.jpg"
+    },
+    {
+      "egl_player_id": "EGLP026",
+      "player_name": "Niraj Agarwal",
+      "source_file": "Niraj Agarwal.jpg",
+      "asset": "assets/player-eglp026.jpg"
+    },
+    {
+      "egl_player_id": "EGLP027",
+      "player_name": "Sumit Chhetri",
+      "source_file": "Sumit chhetri.jpeg",
+      "asset": "assets/player-eglp027.jpg"
+    },
+    {
+      "egl_player_id": "EGLP028",
+      "player_name": "Akash Paul",
+      "source_file": "Akash Paul.jpg",
+      "asset": "assets/player-eglp028.jpg"
+    },
+    {
+      "egl_player_id": "EGLP030",
+      "player_name": "Shivam Jaiswal",
+      "source_file": "Shivam Jaiswal.jpeg",
+      "asset": "assets/player-eglp030.jpg"
+    },
+    {
+      "egl_player_id": "EGLP031",
+      "player_name": "Mangalam Lakhotia",
+      "source_file": "Mangalam Lakhotia.jpg",
+      "asset": "assets/player-eglp031.jpg"
+    },
+    {
+      "egl_player_id": "EGLP032",
+      "player_name": "Mohit Sharma",
+      "source_file": "Mohit Sharma.jpg",
+      "asset": "assets/player-eglp032.jpg"
+    },
+    {
+      "egl_player_id": "EGLP034",
+      "player_name": "Aakash Pansari",
+      "source_file": "Aakash Pansari.jpg",
+      "asset": "assets/player-eglp034.jpg"
+    },
+    {
+      "egl_player_id": "EGLP035",
+      "player_name": "Prakash Gupta",
+      "source_file": "Prakash Gupta.jpg",
+      "asset": "assets/player-eglp035.jpg"
+    },
+    {
+      "egl_player_id": "EGLP036",
+      "player_name": "Nishant Sharma",
+      "source_file": "Nishant Sharma.jpeg",
+      "asset": "assets/player-eglp036.jpg"
+    },
+    {
+      "egl_player_id": "EGLP037",
+      "player_name": "Samarth Jhunjhunwala",
+      "source_file": "Samarth Jhunjhunwala.jpeg",
+      "asset": "assets/player-eglp037.jpg"
+    },
+    {
+      "egl_player_id": "EGLP038",
+      "player_name": "Vivek Khemka",
+      "source_file": "Vivek Khemka.jpeg",
+      "asset": "assets/player-eglp038.jpg"
+    },
+    {
+      "egl_player_id": "EGLP039",
+      "player_name": "Deepak Bihani",
+      "source_file": "Deepak Bihani.jpg",
+      "asset": "assets/player-eglp039.jpg"
+    },
+    {
+      "egl_player_id": "EGLP040",
+      "player_name": "Nikhil Goenka",
+      "source_file": "NIKHIL GOENKA.jpg",
+      "asset": "assets/player-eglp040.jpg"
+    },
+    {
+      "egl_player_id": "EGLP042",
+      "player_name": "Gopal Dalmia",
+      "source_file": "gopal dalmia.jpg",
+      "asset": "assets/player-eglp042.jpg"
+    },
+    {
+      "egl_player_id": "EGLP044",
+      "player_name": "Deepak Khandelwal",
+      "source_file": "Deepak Khandelwal.jpg",
+      "asset": "assets/player-eglp044.jpg"
+    },
+    {
+      "egl_player_id": "EGLP045",
+      "player_name": "Priyanshu Patra",
+      "source_file": "Priyanshu patra.jpg",
+      "asset": "assets/player-eglp045.jpg"
+    },
+    {
+      "egl_player_id": "EGLP046",
+      "player_name": "Arun Singh",
+      "source_file": "Arun Singh.jpeg",
+      "asset": "assets/player-eglp046.jpg"
+    },
+    {
+      "egl_player_id": "EGLP053",
+      "player_name": "Ravi Bajaj",
+      "source_file": "Ravi Bajaj.jpg",
+      "asset": "assets/player-eglp053.jpg"
+    },
+    {
+      "egl_player_id": "EGLP057",
+      "player_name": "Prakash Saraf",
+      "source_file": "Prakash saraf.jpg",
+      "asset": "assets/player-eglp057.jpg"
+    },
+    {
+      "egl_player_id": "EGLP058",
+      "player_name": "Sandeep Khanna",
+      "source_file": "SANDEEP KHANNA.jpg",
+      "asset": "assets/player-eglp058.jpg"
+    },
+    {
+      "egl_player_id": "EGLP059",
+      "player_name": "Akshat Newar",
+      "source_file": "Akshat Newar.jpeg",
+      "asset": "assets/player-eglp059.jpg"
+    },
+    {
+      "egl_player_id": "EGLP061",
+      "player_name": "Abhishek Kedia",
+      "source_file": "Abhishek Kedia.jpeg",
+      "asset": "assets/player-eglp061.jpg"
+    },
+    {
+      "egl_player_id": "EGLP062",
+      "player_name": "Hemant Jain",
+      "source_file": "Hemant Jain.jpg",
+      "asset": "assets/player-eglp062.jpg"
+    },
+    {
+      "egl_player_id": "EGLP063",
+      "player_name": "Deepak Gurawa",
+      "source_file": "Deepak Gurawa.JPG",
+      "asset": "assets/player-eglp063.jpg"
+    },
+    {
+      "egl_player_id": "EGLP067",
+      "player_name": "Shrikant Sharma",
+      "source_file": "Shrikant Sharma.JPG",
+      "asset": "assets/player-eglp067.jpg"
+    },
+    {
+      "egl_player_id": "EGLP070",
+      "player_name": "Nawin Goyal",
+      "source_file": "Nawin Goyal.jpg",
+      "asset": "assets/player-eglp070.jpg"
+    },
+    {
+      "egl_player_id": "EGLP071",
+      "player_name": "Prosenjit Sengupta",
+      "source_file": "Prosenjit Sengupta.jpeg",
+      "asset": "assets/player-eglp071.jpg"
+    },
+    {
+      "egl_player_id": "EGLP072",
+      "player_name": "Vimal Joshi",
+      "source_file": "Vimal Joshi.jpg",
+      "asset": "assets/player-eglp072.jpg"
+    },
+    {
+      "egl_player_id": "EGLP080",
+      "player_name": "Ankush Gupta",
+      "source_file": "Ankush Gupta.jpg",
+      "asset": "assets/player-eglp080.jpg"
+    },
+    {
+      "egl_player_id": "EGLP081",
+      "player_name": "Ashish Manpuria",
+      "source_file": "Ashish Manpuria.jpeg",
+      "asset": "assets/player-eglp081.jpg"
+    },
+    {
+      "egl_player_id": "EGLP082",
+      "player_name": "Gopal Shah",
+      "source_file": "gopal shah.jpeg",
+      "asset": "assets/player-eglp082.jpg"
+    },
+    {
+      "egl_player_id": "EGLP085",
+      "player_name": "Robin Pathak",
+      "source_file": "Robin Pathak.jpg",
+      "asset": "assets/player-eglp085.jpg"
+    },
+    {
+      "egl_player_id": "EGLP086",
+      "player_name": "Abhinandan Sharma",
+      "source_file": "Abhinandan Sharma.PNG",
+      "asset": "assets/player-eglp086.jpg"
+    },
+    {
+      "egl_player_id": "EGLP091",
+      "player_name": "Vivek Tantia",
+      "source_file": "Vivek Tantia.png",
+      "asset": "assets/player-eglp091.jpg"
+    },
+    {
+      "egl_player_id": "EGLP097",
+      "player_name": "Abhishek Patawari",
+      "source_file": "Abhishek Patawari.jpeg",
+      "asset": "assets/player-eglp097.jpg"
+    },
+    {
+      "egl_player_id": "EGLP098",
+      "player_name": "Abhishek Poddar",
+      "source_file": "Abhishek Poddar.jpeg",
+      "asset": "assets/player-eglp098.jpg"
+    },
+    {
+      "egl_player_id": "EGLP099",
+      "player_name": "Anik Sarangi",
+      "source_file": "Anik Sarangi.jpeg",
+      "asset": "assets/player-eglp099.jpg"
+    },
+    {
+      "egl_player_id": "EGLP100",
+      "player_name": "Ankit Sharma",
+      "source_file": "Ankit Sharma.jpeg",
+      "asset": "assets/player-eglp100.jpg"
+    },
+    {
+      "egl_player_id": "EGLP101",
+      "player_name": "Ashok Jawaharlal Upadhyay",
+      "source_file": "Ashok Jawaharlal Upadhyay.jpeg",
+      "asset": "assets/player-eglp101.jpg"
+    },
+    {
+      "egl_player_id": "EGLP103",
+      "player_name": "Devansh Bharti",
+      "source_file": "Devansh Bharti.jpg",
+      "asset": "assets/player-eglp103.jpg"
+    },
+    {
+      "egl_player_id": "EGLP104",
+      "player_name": "Deven Kaushik",
+      "source_file": "Deven Kaushik.jpg",
+      "asset": "assets/player-eglp104.jpg"
+    },
+    {
+      "egl_player_id": "EGLP105",
+      "player_name": "Gautam Kaloya",
+      "source_file": "Gautam Kaloya.jpeg",
+      "asset": "assets/player-eglp105.jpg"
+    },
+    {
+      "egl_player_id": "EGLP106",
+      "player_name": "Harsha Wardhan Saraiya",
+      "source_file": "Harsha Wardhan Saraiya.png",
+      "asset": "assets/player-eglp106.jpg"
+    },
+    {
+      "egl_player_id": "EGLP107",
+      "player_name": "Jai Prakash Bhutoria",
+      "source_file": "JaiprakashBHutoria.jpg",
+      "asset": "assets/player-eglp107.jpg"
+    },
+    {
+      "egl_player_id": "EGLP109",
+      "player_name": "Manav Patawari",
+      "source_file": "Manav Patawari.jpg",
+      "asset": "assets/player-eglp109.jpg"
+    },
+    {
+      "egl_player_id": "EGLP112",
+      "player_name": "Nitesh Agarwal",
+      "source_file": "Nitesh Agarwal.jpeg",
+      "asset": "assets/player-eglp112.jpg"
+    },
+    {
+      "egl_player_id": "EGLP113",
+      "player_name": "Nitin Banthia",
+      "source_file": "Nitin Banthia.jpg",
+      "asset": "assets/player-eglp113.jpg"
+    },
+    {
+      "egl_player_id": "EGLP114",
+      "player_name": "Raj Singhania",
+      "source_file": "Raj Singhania.jpeg",
+      "asset": "assets/player-eglp114.jpg"
+    },
+    {
+      "egl_player_id": "EGLP115",
+      "player_name": "Raunak Agarwal",
+      "source_file": "Raunak Agarwal.jpeg",
+      "asset": "assets/player-eglp115.jpg"
+    },
+    {
+      "egl_player_id": "EGLP117",
+      "player_name": "Ronak Saraogi",
+      "source_file": "Ronak Saraogi.jpeg",
+      "asset": "assets/player-eglp117.jpg"
+    },
+    {
+      "egl_player_id": "EGLP118",
+      "player_name": "Ruchikar Tewari",
+      "source_file": "Ruchikar Tewari.png",
+      "asset": "assets/player-eglp118.jpg"
+    },
+    {
+      "egl_player_id": "EGLP119",
+      "player_name": "Saharsh Agarwal",
+      "source_file": "saharsh agarwal.png",
+      "asset": "assets/player-eglp119.jpg"
+    },
+    {
+      "egl_player_id": "EGLP120",
+      "player_name": "Sahil Goyal",
+      "source_file": "Sahil Goyal.jpeg",
+      "asset": "assets/player-eglp120.jpg"
+    },
+    {
+      "egl_player_id": "EGLP122",
+      "player_name": "Sarvesh Sharma",
+      "source_file": "Sarvesh Sharma.jpg",
+      "asset": "assets/player-eglp122.jpg"
+    },
+    {
+      "egl_player_id": "EGLP123",
+      "player_name": "Shikhar Thanvi",
+      "source_file": "Shikhar Thanvi.jpeg",
+      "asset": "assets/player-eglp123.jpg"
+    },
+    {
+      "egl_player_id": "EGLP126",
+      "player_name": "Sunil Agarwal - D1",
+      "source_file": "Sunil Agarwal-D1.jpg",
+      "asset": "assets/player-eglp126.jpg"
+    },
+    {
+      "egl_player_id": "EGLP129",
+      "player_name": "Ullash Agarwal",
+      "source_file": "ullash agarwal.jpg",
+      "asset": "assets/player-eglp129.jpg"
+    },
+    {
+      "egl_player_id": "EGLP130",
+      "player_name": "Vaibhav Thanvi",
+      "source_file": "vaibhav thanvi.jpg",
+      "asset": "assets/player-eglp130.jpg"
+    },
+    {
+      "egl_player_id": "EGLP131",
+      "player_name": "Vijay Thanvi",
+      "source_file": "Vijay Thanvi.jpg",
+      "asset": "assets/player-eglp131.jpg"
+    },
+    {
+      "egl_player_id": "EGLP132",
+      "player_name": "Vineet Maheshwari",
+      "source_file": "Vineet Maheshwari.webp",
+      "asset": "assets/player-eglp132.jpg"
+    },
+    {
+      "egl_player_id": "EGLP133",
+      "player_name": "Viraj Goenka",
+      "source_file": "Viraj Goenka.jpg",
+      "asset": "assets/player-eglp133.jpg"
+    },
+    {
+      "egl_player_id": "EGLP135",
+      "player_name": "Dhruv Agarwal",
+      "source_file": "Dhruv Agarwal.jpg",
+      "asset": "assets/player-eglp135.jpg"
+    }
+  ],
+  "photo_count": 79,
+  "player_count": 135,
+  "team_logo_files": 16,
+  "sponsor_logo_files": 13,
+  "sponsor_rows": [
+    {
+      "season": 1,
+      "category": "Title",
+      "brand": "GRACO",
+      "sponsor_name": "Mr. Naresh Agarwal",
+      "logo": "assets/sponsor-graco.png"
+    },
+    {
+      "season": 1,
+      "category": "Co-Sponsor",
+      "brand": "Suchita Toyota",
+      "sponsor_name": "Ms. Reshu Garg Mundhara",
+      "logo": "assets/sponsor-suchita-toyota.png"
+    },
+    {
+      "season": 1,
+      "category": "Associate Partner",
+      "brand": "Air Zone",
+      "sponsor_name": "Mr. Sourav Jaiswal",
+      "logo": "assets/sponsor-air-zone.png"
+    },
+    {
+      "season": 1,
+      "category": "Trophy",
+      "brand": "Lions Club of Kolkata Aastha",
+      "sponsor_name": "Mr. Sushil Kankaria",
+      "logo": "assets/sponsor-lions-club-of-kolkata-aastha.png"
+    },
+    {
+      "season": 1,
+      "category": "Toss",
+      "brand": "Premier Jewels",
+      "sponsor_name": "Mr. Abhishek Saraogi",
+      "logo": "assets/sponsor-premier-jewels.png"
+    },
+    {
+      "season": 1,
+      "category": "Décor",
+      "brand": "Wedding Wink",
+      "sponsor_name": "Mr. Shivam Mishra",
+      "logo": "assets/sponsor-wedding-wink.png"
+    },
+    {
+      "season": 1,
+      "category": "BTS",
+      "brand": "Wedding Wink",
+      "sponsor_name": "Ms. Rakhee Agarwal",
+      "logo": "assets/sponsor-wedding-wink.png"
+    },
+    {
+      "season": 1,
+      "category": "Food Partner",
+      "brand": "Gokul G",
+      "sponsor_name": "Mr. Mukesh Upadhyay",
+      "logo": "assets/sponsor-gokul-g.png"
+    },
+    {
+      "season": 1,
+      "category": "Water",
+      "brand": "Dharitri",
+      "sponsor_name": "Mr. Prasun Banerjee",
+      "logo": "assets/sponsor-dharitri.png"
+    },
+    {
+      "season": 1,
+      "category": "MVP Awards",
+      "brand": "Cell Zone",
+      "sponsor_name": "Mr. Arun Singh",
+      "logo": "assets/sponsor-cell-zone.png"
+    },
+    {
+      "season": 1,
+      "category": "Other Food",
+      "brand": "Bombay Kulfi",
+      "sponsor_name": "Mr. Harsh Agarwal",
+      "logo": "assets/sponsor-bombay-kulfi.png"
+    },
+    {
+      "season": 1,
+      "category": "Jersey",
+      "brand": "Size Plus Apparel Pvt Ltd",
+      "sponsor_name": "Mr. Sanjay Jha",
+      "logo": null
+    },
+    {
+      "season": 1,
+      "category": "Medical Partner",
+      "brand": "Balaji Pharma",
+      "sponsor_name": "Mr. Vikram Bagaria",
+      "logo": null
+    },
+    {
+      "season": 2,
+      "category": "Exclusive Partner",
+      "brand": "MC Financial Services",
+      "sponsor_name": "Mr. Manisankar Chatterjee",
+      "logo": "assets/sponsor-mc-financial-services.png"
+    },
+    {
+      "season": 2,
+      "category": "Auction Powered by",
+      "brand": "MC Financial Services",
+      "sponsor_name": "Mr. Manisankar Chatterjee",
+      "logo": "assets/sponsor-mc-financial-services.png"
+    },
+    {
+      "season": 2,
+      "category": "Event Crafted by",
+      "brand": "Pulse Craft Events",
+      "sponsor_name": "Mr. Harsh Singhania & Mr. Krishna Jaiswal",
+      "logo": "assets/sponsor-pulse-craft-events.png"
+    },
+    {
+      "season": 2,
+      "category": "Food Partner",
+      "brand": "Gujrati Delights",
+      "sponsor_name": null,
+      "logo": null
+    },
+    {
+      "season": 2,
+      "category": "Medical Partner",
+      "brand": "Balaji Pharma",
+      "sponsor_name": "Mr. Vikram Bagaria",
+      "logo": null
+    }
+  ],
+  "notes": [
+    "Player photos were linked only on exact normalized name match to Season 1 player names in the master register.",
+    "No photos were assigned based on fuzzy name similarity.",
+    "No logos were invented; missing sponsor logos use text-only rendering."
+  ]
+}
