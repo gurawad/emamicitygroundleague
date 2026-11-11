@@ -40,3 +40,13 @@ Fresh refinement release based on the approved design brief:
 - Sponsor logo paths checked against packaged assets.
 - 135 player records, 30 matches and 16 standings records confirmed.
 - Not yet deployed or fully browser-tested against GitHub Pages.
+
+
+## V8 refinement notes
+- Footer wording standardized to "Official Tournament Records".
+- Hall of Fame match awards display full "Player of the Match" wording.
+- Sponsor brands are grouped by season and duplicate roles are consolidated into one brand card.
+- Share-player selector no longer displays internal EGL player IDs.
+- Intelligence remains a searchable player table; this release adds cache-busting asset versions.
+- Imported serial-numbered player photos from the supplied assets.zip.
+- Photo audit: 131 of 135 player images found. Missing photo files: EGLP121, EGLP124, EGLP127, EGLP134. No substitute photos were invented.
