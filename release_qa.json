@@ -1,9 +1,16 @@
 {
-  "player_profiles": 135,
-  "unique_egl_ids": 135,
+  "release": "V7",
+  "players": 135,
+  "unique_player_ids": 135,
   "season_team_entries": 16,
+  "distinct_team_names": 13,
   "matches": 30,
   "standings": 16,
   "sponsors": 18,
-  "auction_prices_linked": 96
+  "player_photo_mappings": 87,
+  "team_logo_assets": 16,
+  "missing_sponsor_logo_paths": [],
+  "javascript_syntax_check": "passed",
+  "deployment": "not deployed",
+  "browser_qa": "pending"
 }

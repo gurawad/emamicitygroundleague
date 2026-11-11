@@ -1,26 +1,42 @@
-# Emami City Ground League — Rebuild V6
+# Emami City Ground League — V7
 
-A fresh static-site rebuild for GitHub Pages. It is designed around the user's selected direction: hybrid dark/light presentation, latest season first, and season-specific player share cards by default.
-
-## Files
-- `index.html`, `styles.css`, `app.js`: new front end
-- `egl-data.json`: structured source-derived tournament archive and existing Season 2 intelligence data
-- `assets/`: supplied player, team and sponsor images
+Fresh refinement release based on the approved design brief:
+- Hybrid visual direction (dark sports shell with clean light data/sponsor surfaces)
+- Latest season first
+- Player share cards default to selected season (EGL 2.0)
+- Official EGL data takes priority over external CricHeroes context
 
 ## Deploy
-1. Back up the existing GitHub repository.
-2. Upload the contents of this folder to the repository root (not the enclosing folder).
-3. Ensure `assets/` and `egl-data.json` sit beside `index.html`.
-4. Commit and allow GitHub Pages to deploy.
+1. Back up the current GitHub repository.
+2. Extract this ZIP.
+3. Upload the contents of this folder to the root of `gurawad/emamicitygroundleague`.
+4. Keep `assets/`, `index.html`, `app.js`, `styles.css`, and `egl-data.json` together at repository root.
+5. Commit and wait for GitHub Pages deployment.
 
-## Data notes
-- The archive has 135 player profiles, 16 season-team entries, 30 matches, 16 standings rows and season-specific sponsor records.
-- Season 1 and Season 2 remain distinct. Combined player totals use the supplied career total fields.
-- Season 1/2 standings preserve the source workbook's column values.
-- Match timings appear only in Match Centre, never in standings.
-- Season 1 title sponsor is GRACO; Season 2 exclusive partner is MC Financial Services. Player share cards default to EGL 2.0 and change partner branding with season selection.
-- Intelligence scores are presented separately from official tournament statistics.
-- Player award rows are sourced from the archive; team awards are displayed in the Hall of Fame championship cards. Sponsor/owner felicitation details are not displayed as awards.
+## V7 refinements
+- Homepage: removes unverified date/venue text, shows Season 1 GRACO title sponsor and Season 2 MC Financial Services exclusive partner.
+- Homepage terminology: "Official Tournament Records"; unique player and distinct team counts.
+- Players: removes visible EGL player IDs from cards, aligns photos to a consistent top-aligned frame, and shows both season teams in combined profiles.
+- Teams: team logo fallbacks for missing/broken image paths.
+- Matches: SF1/SF2 are explicitly labelled Semi-final 1/2; match timings stay in Match Centre, not standings.
+- Hall of Fame: championship cards use team logo/fallback; player awards are ordered by category; POTM is written in full.
+- Sponsors: duplicate brand roles are grouped into one card; roles, sponsor names and logos have separate layout areas.
+- Share a Player: includes player photo, season team, season-specific partner branding and available individual awards.
+- Intelligence: row-level searchable view includes all 135 player profiles, prioritises official EGL season records and treats intelligence as secondary context.
 
-## Important
-This is a static GitHub Pages release. It does not yet connect to Supabase or a private admin system. Validate the live site and records before treating it as a final certified release.
+## Data limitations (important)
+- Season 1 CricHeroes career context is not yet supplied. It is not required for official EGL season statistics and can be added later as a separately labelled source.
+- Combined batting average is calculated from combined runs and dismissals where available.
+- Combined bowling average is shown only when source totals provide the required runs-conceded denominator for both relevant seasons. Combined strike rate/economy are not fabricated where balls-faced/overs denominators are missing.
+- Missing statistics remain blank, not zero.
+- Distinct team count is a name-based count pending confirmation of any renamed-team continuity.
+- This remains a static GitHub Pages release; no Supabase/admin deployment is included.
+
+## QA performed
+- JavaScript syntax check (`node --check`) passed.
+- JSON parsing passed.
+- All 18 sponsor records retained.
+- All 16 team-logo files present in the assets folder.
+- Sponsor logo paths checked against packaged assets.
+- 135 player records, 30 matches and 16 standings records confirmed.
+- Not yet deployed or fully browser-tested against GitHub Pages.
